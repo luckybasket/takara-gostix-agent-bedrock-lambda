@@ -22,7 +22,13 @@
               "arn:aws:s3:::amplify-shastaamplifywebp-shastaappsbucket30fa4b22-mn81d1d0ryeo",
               "arn:aws:s3:::amplify-shastaamplifywebp-shastaappsbucket30fa4b22-mn81d1d0ryeo/*",
               "arn:aws:s3:::amplify-dok8q44qolwbd-mai-shastaappsbucket30fa4b22-fr4npyrppjrg",
-              "arn:aws:s3:::amplify-dok8q44qolwbd-mai-shastaappsbucket30fa4b22-fr4npyrppjrg/*"
+              "arn:aws:s3:::amplify-dok8q44qolwbd-mai-shastaappsbucket30fa4b22-fr4npyrppjrg/*",
+              "arn:aws:s3:::takara-bedrock-rt-discovery",
+              "arn:aws:s3:::takara-bedrock-rt-discovery/*",
+              "arn:aws:s3:::takara-bedrock-rag-rd-knowledge",
+              "arn:aws:s3:::takara-bedrock-rag-rd-knowledge/*",
+              "arn:aws:s3:::takara-bedrock-rag-gostix-general",
+              "arn:aws:s3:::takara-bedrock-rag-gostix-general/*"
           ]
       },
       {
@@ -57,7 +63,8 @@
             "bedrock:InvokeModelWithResponseStream",
             "bedrock:Retrieve",
             "bedrock:RetrieveAndGenerate",
-            "bedrock:GetInferenceProfile"
+            "bedrock:GetInferenceProfile",
+            "bedrock:InvokeAgent"
         ],
         "Resource": "*" 
       }
